@@ -58,9 +58,27 @@ h3{
     background-color: #FFFFF4 !important;
 }
 
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #333333;
+    transition: width .3s ease;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
 .hero{
     background-color: #FFFFF4;
-    padding-top: 70px;
     padding-bottom: 70px;
 }
 
@@ -92,6 +110,7 @@ h3{
     margin: 20px;
     background-color: #F1F1F1;
     border-radius: 8px;
+    padding: 10px;
 }
 
 .price{
@@ -99,6 +118,10 @@ h3{
     font-weight: 700;
     color: #76C27E;
     margin-bottom: 0;
+}
+
+.accordion-button[aria-expanded=true]{
+    color: #333333;
 }
 
 @media screen and (max-width: 991px) {
