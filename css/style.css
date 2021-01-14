@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+header{
+    background-color: #FFFFF4;
+}
+
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.text-purple{
+    color: #363958;
+}
+
+.m-tb{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.btn-purple{
+    background-color: #2A1E59;
+    color: #ffffff;
+    padding: 15px 25px;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.btn-purple:hover{
+    color: #ffffff;
+}
+
+.btn-purple i{
+    margin-right: 10px;
+}
+
+.menu{
+    background-color: #FFFFF4 !important;
+}
+
+.hero{
+    background-color: #FFFFF4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.hero-info h1 span{
+    color: #76C27E;
+    display: block;
+}
+
+
+.actions .action-item img{
+    width: 68px;
+    height: 82px;
+}
+
+.action-item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+.action-item .info{
+    margin-left: 20px;
+}
+
+.action-item .info p{
+    margin-bottom: 0;
+}
+
+.card-img-wrapper{
+    margin: 20px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+}
+
+.price{
+    font-size: 36px;
+    font-weight: 700;
+    color: #76C27E;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .logo-img{
+        width: 50%;
+    }
+}
